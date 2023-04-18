@@ -1,11 +1,11 @@
 
 @media(max-width: 992px)
 {
-    .info__breakpoint-lgs
+    .breakpoint-lgs
     {
         display: block;
     }
-    .info__breakpoint-lgb
+    .breakpoint-lgb
     {
         display: none;
     }
@@ -13,23 +13,47 @@
 
 @media(min-width: 992px)
 {
-    .info__breakpoint-lgs
+    .breakpoint-lgs
     {
         display: none;
     }
-    .info__breakpoint-lgb
+    .breakpoint-lgb
     {
         display: block;
     }
 }
 
-.faq-list-item
+@media(max-width: 768px)
+{
+    .breakpoint-mbs
+    {
+        display: block;
+    }
+    .breakpoint-mdb
+    {
+        display: none;
+    }
+}
+
+@media(min-width: 768px)
+{
+    .breakpoint-mbs
+    {
+        display: none;
+    }
+    .breakpoint-mdb
+    {
+        display: block;
+    }
+}
+
+.list-item
 {
     text-decoration: none;
     color: black;
 }
 
-.faq-list-item:hover
+.list-item:hover
 {
     text-decoration: none;
     color: black;
