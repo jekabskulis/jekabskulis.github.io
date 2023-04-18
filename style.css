@@ -22,3 +22,15 @@
         display: block;
     }
 }
+
+.faq-list-item
+{
+    text-decoration: none;
+    color: black;
+}
+
+.faq-list-item:hover
+{
+    text-decoration: none;
+    color: black;
+}
